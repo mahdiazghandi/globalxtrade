@@ -18,6 +18,7 @@ module.exports = {
         Navblue: "#001770",
         WhiteColor: "#FCFDFF",
         MenuColor: "#DFE1E5",
+        LineCOlor: "#BFC3CC",
         BlackColor: "#000414",
         BlackColor2: "#000A33",
         SearchColor: "#41465C",
