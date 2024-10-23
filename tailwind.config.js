@@ -22,8 +22,17 @@ module.exports = {
         BlackColor: "#000414",
         BlackColor2: "#000A33",
         SearchColor: "#41465C",
+        BgWColor: "#F6F7F8",
+        BorderColorT: "#707380",
+        BorderColorB: "#B5B9C8",
+        BgColorP: "#EAEEFE",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+       addVariant("child", "& > *");
+       addVariant("child-hover", "& > *:hover");
+    },
+ ],
 };
