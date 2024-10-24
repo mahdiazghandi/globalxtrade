@@ -15,15 +15,24 @@ module.exports = {
         5.5: "22px",
       },
       colors: {
-        Navblue: "#001770",
-        WhiteColor: "#FCFDFF",
-        MenuColor: "#DFE1E5",
-        LineCOlor: "#BFC3CC",
-        BlackColor: "#000414",
-        BlackColor2: "#000A33",
-        SearchColor: "#41465C",
+        customblue: "#001770",
+        customWhite: "#FCFDFF",
+        menuColor: "#DFE1E5",
+        lineColor: "#BFC3CC",
+        blackColor: "#000414",
+        blackColor2: "#000A33",
+        searchColor: "#41465C",
+        bgWColor: "#F6F7F8",
+        borderColorT: "#707380",
+        borderColorB: "#B5B9C8",
+        bgColorP: "#EAEEFE",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+       addVariant("child", "& > *");
+       addVariant("child-hover", "& > *:hover");
+    },
+ ],
 };
