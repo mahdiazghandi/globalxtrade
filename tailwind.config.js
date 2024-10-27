@@ -27,13 +27,15 @@ module.exports = {
         borderColorT: "#707380",
         borderColorB: "#B5B9C8",
         bgColorP: "#EAEEFE",
+        telegram: "#2EA1DA",
+        facebook: "#0966FF",
       },
     },
   },
   plugins: [
     function ({ addVariant }) {
-       addVariant("child", "& > *");
-       addVariant("child-hover", "& > *:hover");
+      addVariant("child", "& > *");
+      addVariant("child-hover", "& > *:hover");
     },
- ],
+  ],
 };
