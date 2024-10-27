@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         customblue: "#001770",
+        textblue: "#0929A7",
         customWhite: "#FCFDFF",
         menuColor: "#DFE1E5",
         lineColor: "#BFC3CC",
